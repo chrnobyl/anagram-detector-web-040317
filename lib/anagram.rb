@@ -14,17 +14,11 @@ class Anagram
 
 	def match(words)
 		arr = []
-
 		words.each do |el|
 			if @word.split("").sort == el.split("").sort
 				arr << el
 			end
 		end
 		arr
-		
-
-
-
 	end
-
 end
